@@ -8,4 +8,3 @@ Frameworks: pycharm, VScode.
 Programming language: python . packages : numpy, pytesseract,flask, Opencv (version 4.4.0.42) 
 link to download Tesseract OCR: https://tesseract-ocr.github.io/tessdoc/4.0-with-LSTM.html#400-alpha-for-windows 
 link to download YOLO algorithm (weights+cfg files) https://pjreddie.com/darknet/yolo/ 
-for more details about the project follow the pdf file 'object detection API'
