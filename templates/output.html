@@ -1,0 +1,21 @@
+<p class="text-left"><h1>Processus de détection des objets</h1></p>
+<div class="row">
+    <div class="col-md-5">
+        <div class="image-container">
+            <p class="text-center"><h2>Image d'origine</h2></p>     
+            <a href="{{url_for('static', filename='uploads/' + fname)}}" target="_new"><img src="{{ url_for('static', filename='uploads/' + fname) }}" class="upload-image-thumb"></a>
+        </div>
+        
+    </div>
+ </div>
+</br>
+
+<div class="row">
+    <div class="col-md-5"> 
+    <div class="image-container">
+        <p class="text-center"><h2>Image après détection </h2></p>
+        <a href="{{url_for('static', filename='detections/' + display_detection)}}" target="_new"><img src="{{url_for('static', filename='detections/' + display_detection)}}" class="upload-image-thumb"></a> 
+    </div>
+</div>
+</div>
+</br>
